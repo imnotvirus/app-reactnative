@@ -74,6 +74,7 @@ const theme = {
     primary: '#2196f3',
     accent: '#2979ff',
     danger: '#ed1c24',
+    white: '#ddd',
   },
 };
 const dark = {
@@ -83,9 +84,10 @@ const dark = {
   colors: {
     ...DefaultTheme.colors,
     background: '#131313',
-    primary: '#eee',
-    accent: '#550000',
+    primary: '#2196f3',
+    accent: '#2979ff',
     danger: '#ed1c24',
+    white: '#ddd',
   },
 };
 const colorTheme = Appearance.getColorScheme();
